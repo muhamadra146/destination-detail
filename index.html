@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination-Detail</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="gambar/Dark logo.png" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Discover</a></li>
+                <li><a href="#about" >Destination</a></li>
+                <li><a href="#service">Package</a></li>
+                <li><a href="#contact">About Us</a></li>
+                <div class="button-navbar"><a href="#"><button>Register</button></a></div>
+            </ul>
+        </nav>
+        <div class="button-nav"><button>Register</button></div>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="section-detail">
+        <div class="container">
+            <div class="content">
+                <div class="content1">
+                    <h3>Nusa Penida, Kelungkung, Bali</h3>
+                    <div class="location">
+                        <p><i class="fa-solid fa-location-dot"></i> Island/Adventure</p>
+                        <p><i class="fa-solid fa-tag"></i> Island/Adventure</p>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery__main">
+                          <img src="gambar/destination-detail/pantai1.jpg" id="main" alt="Gallery image" />
+                        </div>
+                      ​
+                        <div class="gallery__previews">
+                          <img src="gambar/destination-detail/pantai1.jpg" onclick="changeImage(this.src)" alt="Gallery image" />
+                          <img src="gambar/destination-detail/pantai2.jpg" onclick="changeImage(this.src)" alt="Gallery image" />
+                          <img src="gambar/destination-detail/pantai3.jpg" onclick="changeImage(this.src)" alt="Gallery image" />
+                          <img src="gambar/destination-detail/pantai4.jpg" onclick="changeImage(this.src)" alt="Gallery image" />
+                          <img src="gambar/destination-detail/pantai5.jpg" onclick="changeImage(this.src)" alt="Gallery image" />
+                        </div>
+                      </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-success" id="btn1" data-bs-toggle="collapse" href="#collapseExample" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Description</button>
+                        <button type="button" class="btn btn-success" id="btn2" data-bs-toggle="collapse" href="#collapseExample2">What’s include</button>
+                    </div>
+                    <div id="collapseExample" class="collapse show">
+                        <div class="card card-body">
+                            <p>If you're planning a trip to Bali, you might want to consider a visit to Nusa Penida. This beautiful island is located southeast of Bali and is known for its stunning beaches, crystal clear waters, and picturesque landscapes.
+                                In this article, we'll take a closer look at Nusa Penida and provide you with some tips for planning your trip. <br><br> The easiest way to get to Nusa Penida is to take a fast boat from Sanur or Padang Bai. The journey
+                                takes approximately 45 minutes to 1 hour, depending on the sea conditions. You can also take a ferry from Padang Bai, which is cheaper but takes longer.</p>
+                        </div>
+                    </div>
+                    <div id="collapseExample2" class="collapse">
+                        <div class="card card-body">
+                            <div class="acomodation">
+                                <span><i class="fa-solid fa-car"></i>Acomodation</span>
+                                <p>Nusa Penida has a variety of accommodations to choose from, ranging from budget-friendly guesthouses to luxury resorts. Some popular options include:
+                                </p>
+                                <ul>
+                                    <li> Semabu Hills Hotel Nusa Penida</li>
+                                    <li>Daphila Cottage</li>
+                                    <li>La Roja Bungalows</li>
+                                    <li>Nusa Veranda Sunset Villas & Restaurant</li>
+                                </ul>
+                            </div>
+                            <div class="destination">
+                                <span><i class="fa-solid fa-map-location"></i>Destination</span>
+                                <ul>
+                                    <li>Visit Kelingking Beach</li>
+                                    <li>Explore Angel's Billabong</li>
+                                    <li>Snorkel at Crystal Bay</li>
+                                    <li>Visit Broken Beach</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content2">
+                    <p>Destination overview</p>
+                    <div class="rating">
+                        <p>Nusa Penida, Bali</p>
+                        <p><img src="gambar/destination-detail/bintang.png" alt="">4.5</p>
+                    </div>
+                    <h6>60 reviews</h6>
+                    <p>Rp. 1.000.000 / Pax</p>
+                    <div><button>Book Now</button></div>
+                    <hr>
+                    <p>Specials offer for new traveler 15 % off.    
+                        <br> Valid until 5 August 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-most-popular">
+        <div class="container">
+            <div class="content1">
+                <div class="content-left">
+                    <p style="color: #FD7B38;">Related</p>
+                    <h3>Destination may you liked</h3>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="gambar">
+                    <img src="gambar/discovery/Rectangle 29.png" alt="">
+                    <h5></h5>
+                    <p> <span>Nusa Penida</span> <br> Kelungkung, Bali</p>
+                </div>
+                <div class="gambar">
+                    <img src="gambar/discovery/Rectangle 29 (1).png" alt="">
+                    <h5></h5>
+                    <p> <span>Nusa Penida</span> <br> Kelungkung, Bali</p>
+                </div>
+                <div class="gambar">
+                    <img src="gambar/discovery/Rectangle 29 (2).png" alt="">
+                    <h5></h5>
+                    <p> <span>Nusa Penida</span> <br> Kelungkung, Bali</p>
+                </div>
+                <div class="gambar">
+                    <img src="gambar/discovery/Rectangle 29 (3).png" alt="">
+                    <h5></h5>
+                    <p> <span>Nusa Penida</span> <br> Kelungkung, Bali</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-your-help">
+        <div class="your-help">
+            <h2>Need our help?</h2>
+            <p>Contact us freely to get any information you need</p>
+        </div>
+        <div class="content1">
+            <div class="content-left">
+                <div><label for="username">First name</label></div>
+                <div> <input type="text"></div>
+            </div>
+            <div class="content-right">
+                <div><label for="Company-name">Last name</label></div>
+                <div> <input type="text"></div>
+            </div>
+        </div>
+        <div><label for="Company-address">Email</label></div>
+        <div> <input type="text"></div>
+        <div><label for="PIC number">Phone number</label></div>
+        <div> <input type="text"></div>
+        <div><label for="Request service">Message</label></div>
+        <div> <input type="text"></div>
+    </div>
+
+
+
+    <footer>
+        <div class="container-footer">
+            <div class="content1">
+                <div class="item1">
+                    <h4>Menu</h4>
+                    <p>Discovery</p>
+                    <p>Destination</p>
+                    <p>Package</p>
+                    <p>About us</p>
+                </div>
+                <div class="item2">
+                    <h4>Features</h4>
+                    <p>Open Trip</p>
+                    <p>Private Trip</p>
+                    <p>Destination Trip</p>
+                </div>
+                <div class="item3">
+                    <h4>About us</h4>
+                    <p>Need Help</p>
+                    <p>Business Inquiry</p>
+                    <p> Who we are</p>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="content-left">
+                    <img src="gambar/Light Logo.png" alt="">
+                    <p>Jakarta, Indonesia</p>
+                </div>
+                <div class="content-right">
+                    <ul>
+                        <li><a href="#"><img src="gambar/Vector.png" alt=""></a></li>
+                        <li><a href="#"><img src="gambar/Vector-1.png" alt=""></a></li>
+                        <li><a href="#"><img src="gambar/Vector-2.png" alt=""></a></li>
+                    </ul>
+                    <p>Copyright © 2023 Travelark. Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+
+    <script>
+        const changeImage = src => {
+        document.getElementById('main').src = src
+      }
+    </script>
+    <script>
+        const button1 = document.getElementById("btn1");
+        const button2 = document.getElementById("btn2");
+        const text1 = document.getElementById("collapseExample");
+        const text2 = document.getElementById("collapseExample2");
+    
+        button1.onclick = function() {
+            text1.style.display = "block";
+            text2.style.display = "none"
+        }
+        button2.onclick = function() {
+            text2.style.display = "block";
+            text1.style.display = "none"
+        }
+    </script>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</body>
+
+</html>
